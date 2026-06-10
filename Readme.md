@@ -282,10 +282,10 @@ pip install numpy pillow
 
 ---
 
-## Interview Narrative
+<!-- ## Interview Narrative
 
 > "I implemented a self-supervised JEPA world model and trained navigation controllers using DAgger imitation learning. The key result: a controller trained purely on world model imagination (90%) matched one trained with ground-truth expert interaction (91%), validating that learned dynamics can serve as a differentiable simulator. For cross-room navigation in FourRooms, I identified that the encoder organized z-space by visual position rather than navigational connectivity — a 1.15x room separation ratio where we'd want much higher. I designed and ran three principled representation-fixing experiments (contrastive, hierarchical triplet, geodesic regression), diagnosed a layout-confound failure in the geodesic approach via controlled ablation, and identified the weighted geodesic loss on a fixed layout as the clean next step."
 
----
+--- -->
 
 *Built as part of NYU Courant MS CS research. Environment: MiniGrid (Chevalier-Boisvert et al.). Architecture inspired by PPUU and I-JEPA.*
